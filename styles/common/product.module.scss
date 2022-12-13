@@ -1,0 +1,37 @@
+@import '../variabel.scss';
+
+.card {
+  box-shadow: 0 0 .07rem 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+}
+
+.button {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.02rem 0.12rem 0.02rem rgb(0 0 0 / 16%);
+  border: 1px solid $green;
+  color: $green;
+  font-size: .14rem;
+  font-weight: 700;
+  margin-left: 0.24rem;
+  padding: 0.1rem 0.25rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: .25rem;
+  left: 25%;
+  display: flex;
+  align-items: center;
+  gap: 0.05rem;
+  cursor: pointer;
+}
+
+.icon {
+  height: .24rem;
+  width: .24rem;
+}
