@@ -5,10 +5,19 @@
   display: flex;
   flex-direction: column;
   position: relative;
+
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
 }
 
 .image {
   height: 100%;
+
+  @media (max-width: $mobile) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .button {
@@ -29,6 +38,10 @@
   align-items: center;
   gap: 0.05rem;
   cursor: pointer;
+
+  @media (max-width: $mobile) {
+    margin-left: 0;
+  }
 }
 
 .icon {

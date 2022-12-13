@@ -3,10 +3,13 @@ import CardProduct from './cardProduct'
 
 export default function ListProduct() {
   return (
-    <div className={styles.wrapper}>
-      <CardProduct />
-      <CardProduct />
-      <CardProduct />
-    </div>
+    <>
+      <div className={styles.title}>Produk Kami</div>
+      <div className={styles.wrapper}>
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+      </div>
+    </>
   )
 }

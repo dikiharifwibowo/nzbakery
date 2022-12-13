@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer mt-32">
       <div className="container">
-        <div className="flex f-justify-space-between mb-16">
+        <div className="footer__row">
           <div className="flex gap-16">
             <Image
               className="footer__logo"
@@ -30,7 +30,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer__row">
           Copyright &copy; 2022 NZBakery. All rights reserved.
         </div>
       </div>

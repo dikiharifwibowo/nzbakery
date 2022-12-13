@@ -33,6 +33,10 @@ a {
 .main {
   max-width: 12.8rem;
   margin: 0 auto;
+
+  @media (max-width: $mobile) {
+    padding: .16rem;
+  }
 }
 
 .container {
@@ -43,6 +47,10 @@ a {
 .nav {
   font-size: .16rem;
   padding: .10rem 0;
+
+  @media (max-width: $mobile) {
+    padding: .16rem .16rem 0;
+  }
 
   &__menu {
     display: flex;
@@ -96,9 +104,28 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     cursor: pointer;
     display: flex;
     gap: .05rem;
+    padding: 0;
+
     img {
       height: .46rem;
       width: .46rem;
+
+      @media (max-width: $mobile) {
+        height: .32rem;
+        width: .32rem;
+      }
+    }
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .16rem;
+
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      align-items: center;
+      font-size: .16rem;
     }
   }
 }

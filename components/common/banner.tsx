@@ -5,7 +5,7 @@ import HeroImage from '../../public/hero-banner.png'
 export default function Banner() {
   return (
     <Image
-      className={`${styles.banner} mt-16 mb-64` }
+      className={styles.banner}
       src={HeroImage}
       alt='Hero image NZ Bakery'
     />
