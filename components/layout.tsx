@@ -1,7 +1,11 @@
 import Footer from "./footer";
 import Nav from "./nav";
 
-export default function Layout({children}) {
+interface ILayout {
+  children: JSX.Element
+}
+
+export default function Layout({children}: ILayout) {
   return (
     <>
       <Nav />
