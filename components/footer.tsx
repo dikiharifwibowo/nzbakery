@@ -31,7 +31,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          Copyright &copy; NZBakery 2022
+          Copyright &copy; 2022 NZBakery. All rights reserved.
         </div>
       </div>
     </footer>
