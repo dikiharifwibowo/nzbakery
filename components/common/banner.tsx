@@ -8,6 +8,7 @@ export default function Banner() {
       className={styles.banner}
       src={HeroImage}
       alt='Hero image NZ Bakery'
+      priority
     />
   )
 }
