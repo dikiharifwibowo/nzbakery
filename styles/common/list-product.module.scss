@@ -15,4 +15,8 @@
   width: fit-content;
   padding-bottom: .06rem;
   color: $red;
+
+  @media (max-width: $mobile) {
+    font-size: .24rem;
+  }
 }

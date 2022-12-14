@@ -1,10 +1,10 @@
 import Image from "next/image"
-import IconFb from '../public/icons8-facebook.svg'
-import IconWa from '../public/icons8-whatsapp.svg'
+import IconFb from '../public/facebook.png'
+import IconWa from '../public/whatsapp.png'
 
 export default function Footer() {
   return (
-    <footer className="footer mt-32">
+    <footer className="footer pt-16 mt-32">
       <div className="container">
         <div className="footer__row">
           <div className="flex gap-16">
@@ -31,7 +31,15 @@ export default function Footer() {
           </ul>
         </div>
         <div className="footer__row">
-          Copyright &copy; 2022 NZBakery. All rights reserved.
+          <div>
+            Copyright &copy; 2022 NZBakery. All rights reserved.
+          </div>
+          <div>
+            <address>
+              Jln. K.H. Nawawi No. 28, Benda Asri,
+              Padangsari, Majenang, Cilacap.
+            </address>
+          </div>
         </div>
       </div>
     </footer>
