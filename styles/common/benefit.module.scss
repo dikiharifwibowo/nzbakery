@@ -1,0 +1,36 @@
+@import '../variabel.scss';
+
+.container {
+  padding: 0;
+  margin-top: .64rem;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: .32rem;
+  row-gap: .32rem;
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 100%;
+  }
+}
+
+.item {
+  background-color: #fff;
+  box-shadow: 0 0.02rem 0.12rem 0.02rem rgb(0 0 0 / 16%);
+  display: flex;
+  flex-direction: column;
+  gap: .12rem;
+  padding: .16rem;
+  border-radius: .06rem;
+}
+
+.title {
+  font-size: .20rem;
+  color: $red;
+  font-weight: 400;
+}
+
+.desc {
+  font-size: .16rem;
+  color: $red;
+}

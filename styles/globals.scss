@@ -55,6 +55,7 @@ a {
 
   @media (max-width: $mobile) {
     padding: .16rem .16rem 0;
+    font-size: .16rem;
   }
 
   &__menu {
@@ -65,6 +66,11 @@ a {
     font-weight: 400;
     font-size: .20rem;
     cursor: pointer;
+
+    @media (max-width: $mobile) {
+      font-size: .18rem;
+    }
+
   }
 }
 
@@ -166,6 +172,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .pt-16 {
   padding-top: .16rem;
+}
+
+.pt-32 {
+  padding-top: .32rem;
 }
 
 .px-32 {

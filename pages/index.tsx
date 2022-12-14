@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/common/banner'
+import Benefit from '../components/common/benefit'
 import ListProduct from '../components/common/listProduct'
 import styles from '../styles/Home.module.css'
 
@@ -20,6 +21,8 @@ export default function Home() {
         <Banner />
 
         <ListProduct />
+
+        <Benefit/>
       </main>
 
     </div>

@@ -4,7 +4,7 @@ import IconWa from '../public/whatsapp.png'
 
 export default function Footer() {
   return (
-    <footer className="footer pt-16 mt-32">
+    <footer className="footer pt-32 mt-32">
       <div className="container">
         <div className="footer__row">
           <div className="flex gap-16">
