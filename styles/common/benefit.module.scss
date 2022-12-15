@@ -15,22 +15,22 @@
 }
 
 .item {
-  background-color: #fff;
+  background-color: $slate-50;
   box-shadow: 0 0.02rem 0.12rem 0.02rem rgb(0 0 0 / 16%);
   display: flex;
   flex-direction: column;
   gap: .12rem;
   padding: .16rem;
-  border-radius: .06rem;
+  border-radius: .10rem;
 }
 
 .title {
   font-size: .20rem;
-  color: $red;
+  color: $slate-900;
   font-weight: 400;
 }
 
 .desc {
   font-size: .16rem;
-  color: $red;
+  color: $slate-500;
 }

@@ -9,12 +9,12 @@
 }
 
 .title {
-  font-size: .32rem;
-  border-bottom: 2px solid $red;
-  margin-bottom: .32rem;
+  font-size: .24rem;
+  border-bottom: 2px solid $slate-500;
   width: fit-content;
   padding-bottom: .06rem;
-  color: $red;
+  color: $slate-900;
+  margin-bottom: .32rem;
 
   @media (max-width: $mobile) {
     font-size: .20rem;

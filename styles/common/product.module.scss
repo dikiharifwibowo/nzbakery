@@ -1,7 +1,7 @@
 @import '../variabel.scss';
 
 .card {
-  box-shadow: 0 0 .07rem 0 rgb(0 0 0 / 10%);
+  filter: drop-shadow(0 0.1rem 0.14rem rgba(0, 0, 0, 0.18)) drop-shadow(0 0.12rem 0.1rem rgba(0, 0, 0, 0.14));
   display: flex;
   flex-direction: column;
   position: relative;
@@ -13,6 +13,7 @@
 
 .image {
   height: 100%;
+  border-radius: .10rem;
 
   @media (max-width: $mobile) {
     width: 100%;
