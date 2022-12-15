@@ -199,3 +199,29 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .f-align-center {
   align-items: center;
 }
+
+.custom-slick {
+  .slick-track {
+    display: flex;
+    flex-direction: column;
+    gap: .32rem;
+    padding: 0 .24rem 0;
+    transform: none !important;
+    width: 100% !important;
+
+    .slick-slide {
+      display: none;
+    }
+    .slick-slide.slick-active {
+      width: 100% !important;
+      display: block;
+      filter: drop-shadow(0 0.1rem 0.14rem rgba(0, 0, 0, 0.18)) drop-shadow(0 0.12rem 0.1rem rgba(0, 0, 0, 0.14));
+    }
+    .slick-slide.slick-cloned {
+      display: none;
+    }
+  }
+  .slick-dots li button::before {
+    font-size: .16rem;
+  }
+}

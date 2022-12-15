@@ -23,9 +23,7 @@
 
 .content {
   width: 55%;
-  display: flex;
-  flex-direction: column;
-  gap: .32rem;
+
   @media (max-width: $mobile) {
     width: 100%;
   }
@@ -37,7 +35,6 @@
   border-radius: .10rem;
   height: fit-content;
   margin: 0;
-  filter: drop-shadow(0 0.1rem 0.14rem rgba(0, 0, 0, 0.18)) drop-shadow(0 0.12rem 0.1rem rgba(0, 0, 0, 0.14));
 
   @media (max-width: $mobile) {
     width: 100%;
@@ -65,8 +62,8 @@
   font-size: .24rem;
   border-bottom: 2px solid $slate-500;
   width: fit-content;
-  padding-bottom: .06rem;
   color: $slate-900;
+  margin-left: .24rem;
 
   @media (max-width: $mobile) {
     font-size: .20rem;
