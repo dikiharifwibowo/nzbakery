@@ -1,21 +1,19 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import Layout from '../components/layout'
-import { Open_Sans } from '@next/font/google'
+import { Inter } from '@next/font/google'
 
-const openSans = Open_Sans({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <style jsx global>{`
-        html, body {
-          font-family: ${openSans.style.fontFamily};
-        }
-      `}</style>
+    <div className={`${inter.variable} open-sans`}>
       <Layout>
         <Component {...pageProps}/>
       </Layout>
-    </>
+    </div>
   )
 }

@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'a.m.dana.id',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.gravatar.com',
+      },
     ],
   },
   sassOptions: {

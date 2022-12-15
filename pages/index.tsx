@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Banner from '../components/common/banner'
 import Benefit from '../components/common/benefit'
 import ListProduct from '../components/common/listProduct'
-import styles from '../styles/Home.module.css'
+import Testimony from '../components/common/testimony'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>NZ Bakery | The best bakery store in Cilacap</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,14 +14,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Banner />
+      <Banner />
 
-        <ListProduct />
+      <ListProduct />
 
-        <Benefit/>
-      </main>
+      <Benefit />
 
-    </div>
+      <Testimony />
+
+    </>
   )
 }

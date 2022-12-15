@@ -1,0 +1,49 @@
+@import '../variabel.scss';
+
+.container {
+  display: flex;
+  margin-top: .64rem;
+  gap: .32rem
+}
+
+.banner {
+  width: 45%;
+}
+
+.testimony {
+  width: 55%;
+  background-color: $slate-50;
+  padding: .24rem;
+  border-radius: .10rem;
+
+  img {
+    border-radius: 100%;
+  }
+}
+
+.header {
+  display: flex;
+  gap: .16rem;
+
+  > div {
+    display: flex;
+    gap: .06rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.title {
+  font-weight: 600;
+  color: $slate-900;
+}
+
+.role {
+  color: $slate-500;
+}
+
+.caption {
+  color: $slate-700;
+  margin: 0;
+  margin-top: .16rem;
+}
