@@ -6,11 +6,13 @@ import { Inter } from '@next/font/google'
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  weight: ['400'],
+  style: ['normal'],
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${inter.variable} open-sans`}>
+    <div className={`${inter.className}`}>
       <Layout>
         <Component {...pageProps}/>
       </Layout>
