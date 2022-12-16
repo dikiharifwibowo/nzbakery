@@ -12,6 +12,8 @@
 
 .banner {
   width: 45%;
+  filter: drop-shadow(0 0.1rem 0.14rem rgba(0, 0, 0, 0.18)) drop-shadow(0 0.12rem 0.1rem rgba(0, 0, 0, 0.14));
+  
   img {
     height: auto;
     width: 100%;
