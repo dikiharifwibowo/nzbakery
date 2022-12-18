@@ -2,7 +2,11 @@ import styles from '../../styles/common/product.module.scss'
 import Image from 'next/image'
 import iconWa from '../../public/icons-whatsapp.gif'
 
-export default function CardProduct(props: string) {
+interface Product {
+  img: string,
+}
+
+export default function CardProduct(props: Product) {
 
   return (
     <div className={styles.card}>
