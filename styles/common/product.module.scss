@@ -29,19 +29,21 @@
   color: $green;
   font-size: .14rem;
   font-weight: 700;
-  margin-left: 0.24rem;
   padding: 0.1rem 0.25rem;
   text-transform: uppercase;
   position: absolute;
   bottom: .25rem;
-  left: 25%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 0.05rem;
   cursor: pointer;
 
   @media (max-width: $mobile) {
-    margin-left: 0;
+    bottom: 0.15rem;
   }
 }
 
